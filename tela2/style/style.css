@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    outline: none;
+}
+
+body {
+    background-color: #000;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 1.5rem;
+
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+    font-weight: 400;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+    a:first-child {
+        margin: 1rem;
+    }
+
+label {
+    font-size: 33px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 30vw;
+    height: 5vh;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgba(144, 153, 149, 0.658);
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#linkMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+#textAndTitle {
+    margin-top: 1.5rem;
+}
+
+#sectionInput {
+    margin: 2rem;
+    text-align: left;
+}
+
+    #sectionInput #input1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sectionInput #input2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+#button1 {
+    width: 200px;
+    height: 50px;
+    font-size: 33px;
+    font-weight: 400;
+    align-items: center;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgba(140, 119, 224, 1);
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#button2 {
+    width: 450px;
+    height: 50px;
+    font-size: 33px;
+    font-weight: 400;
+    align-items: center;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgba(140, 119, 224, 1);
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
