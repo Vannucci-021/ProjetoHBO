@@ -3,22 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <title>Hbo Max 3</title>
 </head>
 <body>
     <nav>
-        <div>
-            <img src="assets/menuImg.svg" alt="">
-            <img src="assets/lupa.svg" alt="">
+        <!-- Lupa e Menu -->
+        <div id="icons-nav">
+            <a href="#"><img src="assets/menuImg.svg" alt="icone de menu" id="iconMenu"></a>
+            <a href="#"><img src="assets/lupa.svg" alt="icone lupa"></a>
         </div>
-        <div>
-            <img src="assets/logo.svg" alt="">
+        <!-- Logo HBO -->
+        <div id="logo-nav">
+            <img src="assets/logo.svg" alt="Logo da HBO">
         </div>
-        <div>
+        <!-- Links Assinar e Entrar -->
+        <div id="links-nav">
            <a href="#">Assinar</a>
-           <a href="#">Entrar</a>
+           <a href="#" id="linkEntrar">Entrar</a>
         </div>
     </nav>
+    <main>
+        <!-- Texto e Título -->
+        <div id="titleAndText-main">
+            <h1>Entrar</h1>
+            <p>Você tem uma conta HBO Max?</p>
+        </div>
+        <div class="input-container">
+            <!-- Input Email -->
+            <div id="inputEmail">
+                <label>E-mail</label>
+                <input type="email" name="Email" placeholder="email@dnc.group" required>
+            </div>
+            <!-- Input Senha -->
+            <div id="inputSenha">
+                <label>Senha</label>
+                <input type="text" name="Senha" placeholder="*******" required>
+            </div>
+        </div>
+        <!-- Botão 1 -->
+            <button type="submit">Entrar</button>
+        <div id="textMain">
+            <p>Você acessa a HBO Max por um provedor <br>
+                de TV, de internet ou celular?
+            </p>
+        </div>
+        <!-- Botão 2 -->
+        <button type="button" id="buttonProvedor">Entrar como provedor</button>
+    </main>
 </body>
 </html>

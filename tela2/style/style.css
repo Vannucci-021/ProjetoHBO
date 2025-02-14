@@ -1,4 +1,6 @@
+/* Fonte Usada */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Config Padrão */
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +33,7 @@ p {
     color: rgba(255, 255, 255, 1);
 }
 
+/* Config Link a */
 a {
     color: white;
     text-decoration: none;
@@ -39,6 +42,11 @@ a {
     align-items: center;
     color: rgba(255, 255, 255, 1);
 }
+
+    a:hover {
+        transition-duration: .4s;
+        color: rgba(255, 255, 255, 0.39);
+    }
 
     a:first-child {
         margin: 1rem;
@@ -51,6 +59,7 @@ label {
     margin-bottom: 15px;
 }
 
+/* Config input */
 input {
     width: 30vw;
     height: 5vh;
@@ -60,43 +69,53 @@ input {
     padding-left: 15px;
 }
 
+/* Config dos Botões */
+button:hover {
+    transform: translateY(-5px);
+    transition-duration: 1s;
+    box-shadow: 2px 4px 4px rgba(140, 119, 224, 0.37);
+}
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Menu */
 #menu {
     display: flex;
     flex-direction: column;
 }
 
-#linkMenu {
-    display: flex;
-    flex-direction: column;
-}
+    #linkMenu {
+        display: flex;
+        flex-direction: column;
+    }
 
 #textAndTitle {
     margin-top: 1.5rem;
 }
 
+/* Config da seção de inputs */
 #sectionInput {
     margin: 2rem;
     text-align: left;
 }
 
-    #sectionInput #input1 {
+    #sectionInput #inputEmail {
         display: flex;
         flex-direction: column;
     }
 
-    #sectionInput #input2 {
+    #sectionInput #inputSenha {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
     }
 
-#button1 {
+/* Button 1*/
+#buttonEntrar {
     width: 200px;
     height: 50px;
     font-size: 33px;
@@ -110,7 +129,8 @@ input {
     cursor: pointer;
 }
 
-#button2 {
+/* Botão 2 */
+#buttonProvedor {
     width: 450px;
     height: 50px;
     font-size: 33px;

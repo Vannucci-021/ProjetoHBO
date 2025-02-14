@@ -1,4 +1,6 @@
+/* Fonte Usada */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Config Padrão */
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +13,124 @@ body {
     background-image: url('../assets/backgroudImage.svg');
     background-size: cover;
     background-color: black;
+    margin: 1rem 5rem 0 5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Config Link a */
+a{
+    font-size: 29px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+    a:hover{
+        transition-duration: .4s;
+        color: hsla(0, 0%, 100%, 0.61);
+    }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+label {
+    font-size: 33px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Config input */
+input {
+    width: 33vw;
+    height: 40px;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(127, 127, 127, 0.75);
+    padding-left: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+    input::placeholder {
+        color: rgba(255, 255, 255, 0.582);
+    }
+
+/* Config dos Botões */
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 33px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(161, 140, 209, 1), rgba(251, 194, 235, 1));
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-nav img {
+    padding-left: 75px;
+}
+
+/* Links e Icones Nav */
+#icons-nav #iconMenu{
+    margin-right: 69px;
+}
+
+#links-nav #linkEntrar {
+    margin-left: 69px;
+}
+
+#titleAndText-main p {
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* Config inputs */
+    #inputEmail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #inputSenha {
+        display: flex;
+        flex-direction: column;
+    }
+
+#textMain p {
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+}
+
+/* Config Botão 2 */
+#buttonProvedor {
+    width: 30%;
 }

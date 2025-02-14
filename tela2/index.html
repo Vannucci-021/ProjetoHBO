@@ -3,37 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <title>Hbo Max 2</title>
 </head>
 <body>
     <div class="container">
+        <!-- Logo Menu -->
         <div id="menu">
             <img src="assets/logo.svg" alt="Logo HBO">
         </div>
+        <!-- Links a -->
         <div id="linkMenu">
             <a href="#">Menu</a>
             <a href="#">Assinar</a>
         </div>
+        <!-- Título e Texto -->
         <div id="textAndTitle">
             <h1>Entrar</h1>
             <p>Você tem uma conta HBO Max?</p>
         </div>
+        <!-- Seção de Inputs -->
         <div id="sectionInput">
-            <div id="input1">
+            <!-- Input Email -->
+            <div id="inputEmail">
                 <label>E-mail</label>
-                <input type="email" required>
+                <input type="email" name="email" required>
             </div>
-            <div id="input2">
+            <!-- Input Senha -->
+            <div id="inputSenha">
                 <label>Senha</label>
-                <input type="text" required>
+                <input type="text" name="senha" required>
             </div>
         </div>
-        <button type="submit" id="button1">Entrar</button>
+        <!-- Botão 1 -->
+        <button type="submit" id="buttonEntrar">Entrar</button>
         <p>Você acessa a HBO Max por um provedor <br>
             de TV, de internet ou celular?
         </p>
-        <button type="button" id="button2">Entrar como provedor</button>
+        <!-- Botão 2 -->
+        <button type="button" id="buttonProvedor">Entrar como provedor</button>
     </div>
 </body>
 </html>
